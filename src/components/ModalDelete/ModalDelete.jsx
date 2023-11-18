@@ -36,7 +36,7 @@ export default function App({ showModal, handleModalError }) {
                 Error al eliminar
               </ModalHeader>
               <ModalBody>
-                <p>No se puede eliminar ya que tiene un turno asignado.</p>
+                <p>No se puede eliminar.</p>
               </ModalBody>
               <ModalFooter>
                 <Button color="danger" variant="light" onPress={onClose}>
